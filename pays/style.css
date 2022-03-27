@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(./image/map.jpg);
+}
+
+h1{
+    background-image: url(./image/mains.jpg);
+    margin-left: 15%;
+    text-align: center;
+    background-color: rgba(204, 197, 197, 0.651);
+    border-radius: 20px;
+    margin-top: 70px;
+    margin-bottom: 170px;
+    margin-right: 20px;
+    padding: 10px;
+}
+#navbar{
+    background-image: url(./image/mains.jpg);
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    max-width: 10%;
+    border: solid;
+    height: 95%;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.541);
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    border: solid;
+}
+#main-doc{
+    margin: auto;
+    display: grid;
+    margin-left: 15%;
+}
+#Norvège{
+    background-image: url(./image/fjord.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: fill;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px 5px #000000;
+    margin-right: 40px;
+    color: rgb(0, 0, 0);
+    transition-duration: 2s;
+    margin-bottom: 20px;
+    height: 60vh;
+}
+#Norvège:hover{
+    background-image: none;
+    background-color: rgba(126, 172, 233, 0.884);
+}
+#Finlande{
+    background-image: url(./image/finland.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: fill;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px 5px #000000;
+    margin-right: 40px;
+    color: rgb(0, 0, 0);
+    transition-duration: 2s;
+    margin-bottom: 20px;
+    height: 60vh;
+}
+#Finlande:hover{
+    background-image: none;
+    background-color: rgba(240, 248, 255, 0.692);
+}
+#Japon{
+    background-image: url(./image/japon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: fill;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px 5px #000000;
+    margin-right: 40px;
+    color: rgb(0, 0, 0);
+    transition-duration: 2s;
+    margin-bottom: 20px;
+    height: 60vh;
+}
+#Japon:hover{
+    background-image: none;
+    background-color: rgba(247, 191, 191, 0.822);
+}
+#Etats-unis{
+    background-image: url(./image/usa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px 5px #000000;
+    margin-right: 40px;
+    color: rgb(0, 0, 0);
+    transition-duration: 2s;
+    margin-bottom: 20px;
+    height: 60vh;
+}
+#Etats-unis:hover{
+    background-image: none;
+    background-color: rgba(248, 221, 170, 0.822);
+}
+#Pays-bas{
+    background-image: url(./image/paysbas.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px 5px #000000;
+    margin-right: 40px;
+    color: rgb(0, 0, 0);
+    transition-duration: 2s;
+    margin-bottom: 20px;
+    height: 60vh;
+}
+#Pays-bas:hover{
+    background-image: none;
+    background-color: rgba(245, 243, 239, 0.822);
+}
+#navbar li{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15vh;
+    font-size: x-large;
+    border: solid;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(240, 248, 255, 0.397);
+}
+header{
+    text-align: center;
+}
+.header{
+    font-size: x-large;
+    margin: 20px;
+    font-weight: bolder;
+    background-color: rgba(0, 0, 0, 0.082);
+    width: 100px;
+    border-radius: 20px;
+    padding: 10px;
+}
+p{
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    font-size: x-large;
+}
+.city{
+    font-size: large;
+    text-align: start;
+    text-decoration: underline;
+    font-weight: bold;
+}
+li{
+    margin: 30px;
+    list-style: none;
+}
+
+a{
+    display: flex;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    transition: 1s;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+a:hover{
+    transform: scale(1.5);
+    text-shadow: 2px 2px 2px rgba(12, 4, 2, 0.692);
+}
+code{
+    margin-left: 50px;
+}
+.list{
+    font-size: x-large;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    margin-top: 40px;
+}
